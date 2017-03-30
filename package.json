@@ -1,0 +1,24 @@
+{
+  "name": "cerebro",
+  "version": "1.0.1",
+  "description": "Flight control of MultiWii via Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpacmanx/cerebro.git"
+  },
+  "author": "ipacmanx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xpacmanx/cerebro/issues"
+  },
+  "homepage": "https://github.com/xpacmanx/cerebro#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "serialport": "^4.0.7",
+    "socket.io": "^1.7.3"
+  }
+}
